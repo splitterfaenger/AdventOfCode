@@ -1,0 +1,11 @@
+/home/tzwaehn/Desktop/AdventOfCode/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/tzwaehn/Desktop/AdventOfCode/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/tzwaehn/Desktop/AdventOfCode/cmake-build-debug/Day1/CMakeFiles/aoc_day1.dir
+/home/tzwaehn/Desktop/AdventOfCode/cmake-build-debug/Day1/CMakeFiles/edit_cache.dir
+/home/tzwaehn/Desktop/AdventOfCode/cmake-build-debug/Day1/CMakeFiles/rebuild_cache.dir
+/home/tzwaehn/Desktop/AdventOfCode/cmake-build-debug/Day2/CMakeFiles/aoc_day2.dir
+/home/tzwaehn/Desktop/AdventOfCode/cmake-build-debug/Day2/CMakeFiles/edit_cache.dir
+/home/tzwaehn/Desktop/AdventOfCode/cmake-build-debug/Day2/CMakeFiles/rebuild_cache.dir
+/home/tzwaehn/Desktop/AdventOfCode/cmake-build-debug/Day3/CMakeFiles/aoc_day3.dir
+/home/tzwaehn/Desktop/AdventOfCode/cmake-build-debug/Day3/CMakeFiles/edit_cache.dir
+/home/tzwaehn/Desktop/AdventOfCode/cmake-build-debug/Day3/CMakeFiles/rebuild_cache.dir

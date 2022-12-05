@@ -1,0 +1,126 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "Day1",
+					"jsonFile" : "directory-Day1-Debug-bfaab3641de409d6c4ff.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Day1",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "Day2",
+					"jsonFile" : "directory-Day2-Debug-609909181c3b1def3cdd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Day2",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "Day3",
+					"jsonFile" : "directory-Day3-Debug-f47ccf8a00e7776b48ae.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Day3",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					],
+					"name" : "adventofcode",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "aoc_day1::@99e62f37e0395d4f5540",
+					"jsonFile" : "target-aoc_day1-Debug-fb2fcdfe2328a5e40d5e.json",
+					"name" : "aoc_day1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "aoc_day2::@b19d6cb418a7d4a09a6f",
+					"jsonFile" : "target-aoc_day2-Debug-6553f78290e9a28d68be.json",
+					"name" : "aoc_day2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "aoc_day3::@ce17d9054d23055e71a7",
+					"jsonFile" : "target-aoc_day3-Debug-e425d9172f7bf4a0d55f.json",
+					"name" : "aoc_day3",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/tzwaehn/Desktop/AdventOfCode/cmake-build-debug",
+		"source" : "/home/tzwaehn/Desktop/AdventOfCode"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
