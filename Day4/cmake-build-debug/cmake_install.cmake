@@ -1,4 +1,4 @@
-# Install script for directory: /home/tzwaehn/Desktop/AdventOfCode
+# Install script for directory: /home/tzwaehn/Desktop/AdventOfCode/Day4
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -42,26 +42,6 @@ if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "/usr/bin/objdump")
 endif()
 
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("/home/tzwaehn/Desktop/AdventOfCode/cmake-build-debug/Day1/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("/home/tzwaehn/Desktop/AdventOfCode/cmake-build-debug/Day2/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("/home/tzwaehn/Desktop/AdventOfCode/cmake-build-debug/Day3/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("/home/tzwaehn/Desktop/AdventOfCode/cmake-build-debug/Day4/cmake_install.cmake")
-endif()
-
 if(CMAKE_INSTALL_COMPONENT)
   set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")
 else()
@@ -70,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/tzwaehn/Desktop/AdventOfCode/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/tzwaehn/Desktop/AdventOfCode/Day4/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

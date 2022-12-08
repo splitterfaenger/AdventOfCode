@@ -141,6 +141,15 @@
 		},
 		{
 			"path" : "Day3/test.txt"
+		},
+		{
+			"path" : "Day4/CMakeLists.txt"
+		},
+		{
+			"path" : "Day4/pairs.txt"
+		},
+		{
+			"path" : "Day4/test.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

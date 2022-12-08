@@ -10,7 +10,8 @@
 					[
 						1,
 						2,
-						3
+						3,
+						4
 					],
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
@@ -64,6 +65,21 @@
 					[
 						2
 					]
+				},
+				{
+					"build" : "Day4",
+					"jsonFile" : "directory-Day4-Debug-06e61cb050c1d8367c6b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Day4",
+					"targetIndexes" : 
+					[
+						3
+					]
 				}
 			],
 			"name" : "Debug",
@@ -75,14 +91,16 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					],
 					"name" : "adventofcode",
 					"targetIndexes" : 
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -107,6 +125,13 @@
 					"id" : "aoc_day3::@ce17d9054d23055e71a7",
 					"jsonFile" : "target-aoc_day3-Debug-e425d9172f7bf4a0d55f.json",
 					"name" : "aoc_day3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "aoc_day4::@25dc131d99bcf2093901",
+					"jsonFile" : "target-aoc_day4-Debug-091f822a33351994da0e.json",
+					"name" : "aoc_day4",
 					"projectIndex" : 0
 				}
 			]

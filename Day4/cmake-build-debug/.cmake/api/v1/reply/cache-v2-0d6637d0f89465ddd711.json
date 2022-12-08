@@ -34,6 +34,18 @@
 			"value" : "/usr/bin/ar"
 		},
 		{
+			"name" : "CMAKE_BACKWARDS_COMPATIBILITY",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "For backwards compatibility, what version of CMake commands and syntax should this version of CMake try to support."
+				}
+			],
+			"type" : "STRING",
+			"value" : "2.4"
+		},
+		{
 			"name" : "CMAKE_BUILD_TYPE",
 			"properties" : 
 			[
@@ -55,7 +67,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/tzwaehn/Desktop/AdventOfCode/cmake-build-debug"
+			"value" : "/home/tzwaehn/Desktop/AdventOfCode/Day4/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -543,7 +555,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/tzwaehn/Desktop/AdventOfCode/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "/home/tzwaehn/Desktop/AdventOfCode/Day4/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -603,7 +615,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/tzwaehn/Desktop/AdventOfCode"
+			"value" : "/home/tzwaehn/Desktop/AdventOfCode/Day4"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -763,7 +775,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "4"
+			"value" : "1"
 		},
 		{
 			"name" : "CMAKE_OBJCOPY",
@@ -843,7 +855,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "adventofcode"
+			"value" : "Project"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1126,19 +1138,31 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
+			"name" : "EXECUTABLE_OUTPUT_PATH",
 			"properties" : 
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "linker supports push/pop state"
+					"value" : "Single output directory for building all executables."
 				}
 			],
-			"type" : "INTERNAL",
-			"value" : "TRUE"
+			"type" : "PATH",
+			"value" : ""
 		},
 		{
-			"name" : "adventofcode_BINARY_DIR",
+			"name" : "LIBRARY_OUTPUT_PATH",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Single output directory for building all libraries."
+				}
+			],
+			"type" : "PATH",
+			"value" : ""
+		},
+		{
+			"name" : "Project_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1147,10 +1171,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/tzwaehn/Desktop/AdventOfCode/cmake-build-debug"
+			"value" : "/home/tzwaehn/Desktop/AdventOfCode/Day4/cmake-build-debug"
 		},
 		{
-			"name" : "adventofcode_IS_TOP_LEVEL",
+			"name" : "Project_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1162,7 +1186,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "adventofcode_SOURCE_DIR",
+			"name" : "Project_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1171,7 +1195,19 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/tzwaehn/Desktop/AdventOfCode"
+			"value" : "/home/tzwaehn/Desktop/AdventOfCode/Day4"
+		},
+		{
+			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "linker supports push/pop state"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "TRUE"
 		}
 	],
 	"kind" : "cache",

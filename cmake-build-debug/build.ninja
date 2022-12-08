@@ -241,6 +241,65 @@ build Day3/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build Day3/rebuild_cache: phony Day3/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /home/tzwaehn/Desktop/AdventOfCode/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target aoc_day4
+
+
+#############################################
+# Order-only phony target for aoc_day4
+
+build cmake_object_order_depends_target_aoc_day4: phony || Day4/CMakeFiles/aoc_day4.dir
+
+build Day4/CMakeFiles/aoc_day4.dir/check_pairs.cpp.o: CXX_COMPILER__aoc_day4_Debug /home/tzwaehn/Desktop/AdventOfCode/Day4/check_pairs.cpp || cmake_object_order_depends_target_aoc_day4
+  DEP_FILE = Day4/CMakeFiles/aoc_day4.dir/check_pairs.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++2a
+  OBJECT_DIR = Day4/CMakeFiles/aoc_day4.dir
+  OBJECT_FILE_DIR = Day4/CMakeFiles/aoc_day4.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target aoc_day4
+
+
+#############################################
+# Link the executable Day4/aoc_day4
+
+build Day4/aoc_day4: CXX_EXECUTABLE_LINKER__aoc_day4_Debug Day4/CMakeFiles/aoc_day4.dir/check_pairs.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = Day4/CMakeFiles/aoc_day4.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Day4/aoc_day4
+  TARGET_PDB = aoc_day4.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build Day4/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/tzwaehn/Desktop/AdventOfCode/cmake-build-debug/Day4 && /snap/clion/218/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build Day4/edit_cache: phony Day4/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build Day4/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/tzwaehn/Desktop/AdventOfCode/cmake-build-debug/Day4 && /snap/clion/218/bin/cmake/linux/bin/cmake --regenerate-during-build -S/home/tzwaehn/Desktop/AdventOfCode -B/home/tzwaehn/Desktop/AdventOfCode/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build Day4/rebuild_cache: phony Day4/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
 
 build aoc_day1: phony Day1/aoc_day1
@@ -248,6 +307,8 @@ build aoc_day1: phony Day1/aoc_day1
 build aoc_day2: phony Day2/aoc_day2
 
 build aoc_day3: phony Day3/aoc_day3
+
+build aoc_day4: phony Day4/aoc_day4
 
 # =============================================================================
 # Folder targets.
@@ -257,7 +318,7 @@ build aoc_day3: phony Day3/aoc_day3
 #############################################
 # Folder: /home/tzwaehn/Desktop/AdventOfCode/cmake-build-debug
 
-build all: phony Day1/all Day2/all Day3/all
+build all: phony Day1/all Day2/all Day3/all Day4/all
 
 # =============================================================================
 
@@ -281,20 +342,27 @@ build Day2/all: phony Day2/aoc_day2
 build Day3/all: phony Day3/aoc_day3
 
 # =============================================================================
+
+#############################################
+# Folder: /home/tzwaehn/Desktop/AdventOfCode/cmake-build-debug/Day4
+
+build Day4/all: phony Day4/aoc_day4
+
+# =============================================================================
 # Built-in targets
 
 
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /home/tzwaehn/Desktop/AdventOfCode/CMakeLists.txt /home/tzwaehn/Desktop/AdventOfCode/Day1/CMakeLists.txt /home/tzwaehn/Desktop/AdventOfCode/Day1/calories.txt /home/tzwaehn/Desktop/AdventOfCode/Day2/CMakeLists.txt /home/tzwaehn/Desktop/AdventOfCode/Day2/rock_paper_scissor_results.txt /home/tzwaehn/Desktop/AdventOfCode/Day3/CMakeLists.txt /home/tzwaehn/Desktop/AdventOfCode/Day3/rucksacks.txt /home/tzwaehn/Desktop/AdventOfCode/Day3/test.txt /snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/CMakeCInformation.cmake /snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/GNU-C.cmake /snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/GNU-CXX.cmake /snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/GNU.cmake /snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/Platform/Linux-GNU-C.cmake /snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/Platform/Linux-GNU-CXX.cmake /snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/Platform/Linux-GNU.cmake /snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/Platform/Linux.cmake /snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /home/tzwaehn/Desktop/AdventOfCode/CMakeLists.txt /home/tzwaehn/Desktop/AdventOfCode/Day1/CMakeLists.txt /home/tzwaehn/Desktop/AdventOfCode/Day1/calories.txt /home/tzwaehn/Desktop/AdventOfCode/Day2/CMakeLists.txt /home/tzwaehn/Desktop/AdventOfCode/Day2/rock_paper_scissor_results.txt /home/tzwaehn/Desktop/AdventOfCode/Day3/CMakeLists.txt /home/tzwaehn/Desktop/AdventOfCode/Day3/rucksacks.txt /home/tzwaehn/Desktop/AdventOfCode/Day3/test.txt /home/tzwaehn/Desktop/AdventOfCode/Day4/CMakeLists.txt /home/tzwaehn/Desktop/AdventOfCode/Day4/pairs.txt /home/tzwaehn/Desktop/AdventOfCode/Day4/test.txt /snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/CMakeCInformation.cmake /snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/GNU-C.cmake /snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/GNU-CXX.cmake /snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/GNU.cmake /snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/Platform/Linux-GNU-C.cmake /snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/Platform/Linux-GNU-CXX.cmake /snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/Platform/Linux-GNU.cmake /snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/Platform/Linux.cmake /snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /home/tzwaehn/Desktop/AdventOfCode/CMakeLists.txt /home/tzwaehn/Desktop/AdventOfCode/Day1/CMakeLists.txt /home/tzwaehn/Desktop/AdventOfCode/Day1/calories.txt /home/tzwaehn/Desktop/AdventOfCode/Day2/CMakeLists.txt /home/tzwaehn/Desktop/AdventOfCode/Day2/rock_paper_scissor_results.txt /home/tzwaehn/Desktop/AdventOfCode/Day3/CMakeLists.txt /home/tzwaehn/Desktop/AdventOfCode/Day3/rucksacks.txt /home/tzwaehn/Desktop/AdventOfCode/Day3/test.txt /snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/CMakeCInformation.cmake /snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/GNU-C.cmake /snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/GNU-CXX.cmake /snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/GNU.cmake /snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/Platform/Linux-GNU-C.cmake /snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/Platform/Linux-GNU-CXX.cmake /snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/Platform/Linux-GNU.cmake /snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/Platform/Linux.cmake /snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake: phony
+build /home/tzwaehn/Desktop/AdventOfCode/CMakeLists.txt /home/tzwaehn/Desktop/AdventOfCode/Day1/CMakeLists.txt /home/tzwaehn/Desktop/AdventOfCode/Day1/calories.txt /home/tzwaehn/Desktop/AdventOfCode/Day2/CMakeLists.txt /home/tzwaehn/Desktop/AdventOfCode/Day2/rock_paper_scissor_results.txt /home/tzwaehn/Desktop/AdventOfCode/Day3/CMakeLists.txt /home/tzwaehn/Desktop/AdventOfCode/Day3/rucksacks.txt /home/tzwaehn/Desktop/AdventOfCode/Day3/test.txt /home/tzwaehn/Desktop/AdventOfCode/Day4/CMakeLists.txt /home/tzwaehn/Desktop/AdventOfCode/Day4/pairs.txt /home/tzwaehn/Desktop/AdventOfCode/Day4/test.txt /snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/CMakeCInformation.cmake /snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/GNU-C.cmake /snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/GNU-CXX.cmake /snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/GNU.cmake /snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/Platform/Linux-GNU-C.cmake /snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/Platform/Linux-GNU-CXX.cmake /snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/Platform/Linux-GNU.cmake /snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/Platform/Linux.cmake /snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake: phony
 
 
 #############################################

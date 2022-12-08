@@ -9,3 +9,6 @@
 /home/tzwaehn/Desktop/AdventOfCode/cmake-build-debug/Day3/CMakeFiles/aoc_day3.dir
 /home/tzwaehn/Desktop/AdventOfCode/cmake-build-debug/Day3/CMakeFiles/edit_cache.dir
 /home/tzwaehn/Desktop/AdventOfCode/cmake-build-debug/Day3/CMakeFiles/rebuild_cache.dir
+/home/tzwaehn/Desktop/AdventOfCode/cmake-build-debug/Day4/CMakeFiles/aoc_day4.dir
+/home/tzwaehn/Desktop/AdventOfCode/cmake-build-debug/Day4/CMakeFiles/edit_cache.dir
+/home/tzwaehn/Desktop/AdventOfCode/cmake-build-debug/Day4/CMakeFiles/rebuild_cache.dir
